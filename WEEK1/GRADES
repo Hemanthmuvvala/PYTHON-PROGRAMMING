@@ -1,0 +1,15 @@
+#TO DETERMINE THE GRADE
+print("ENTER THE MARKS YOU GOT IN EXAM")
+m=int(input())
+if m>=90 :
+	print("YOU GOT A GRADE")
+elif m>=80  :
+	print("YOU GOT B GRADE")
+elif m>=70 :
+	print("YOU GOT C GRADE")
+elif m>=60 :
+	print("YOU GOT D GRADE")
+elif m>=50  :
+	print("YOU GOT E GRADE")
+else :
+	print("FAILED IN THE EXAM")
