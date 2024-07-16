@@ -1,0 +1,8 @@
+#TO CHECK GIVEN IS VOWEL OR CONSONANT
+print("ENTER THE ALPHABET")
+a=input()
+v=['a','e','i','o','u','A','E','I','O','U']
+if a in v:
+	print("IT IS A VOWEL")
+else:
+	print("IT IS A CONSONENT")
