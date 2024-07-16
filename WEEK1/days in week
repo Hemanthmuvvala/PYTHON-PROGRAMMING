@@ -1,0 +1,20 @@
+#TO DETERMINE THE DAY IN A WEEK
+print("ENTER A VLAUE")
+v=int(input())
+if v==1 :
+	print("THE DAY IS MONDAY")
+elif v==2 :
+	print("THE DAY IS TUESDAY")
+elif v==3 :
+	print("THE DAY IS WEDNESDAY")
+elif v==4 :
+	print("THE DAY IS THURSDAY")
+elif v==5 :
+	print("THE DAY IS FRIDAY")
+elif v==6 :
+	print("THE DAY IS SATURDAY")
+elif v==7 :
+	print("THE DAY IS SUNDAY")
+	print("have a good day")
+else :
+	print("INVALID OPTION")
