@@ -1,0 +1,9 @@
+#TO CALCULATE SIMPLE INTREST
+print("enter the value of principle amount in rupees")
+p=float(input())
+print("enter the period of time amount in months")
+t=float(input())
+print("enter the value of rate of intrest amount in rupees")
+r=float(input())
+simple=(p*t*r)/100
+print("THE SIMPLE INTREST FOR GIVEN DATA:",simple)
