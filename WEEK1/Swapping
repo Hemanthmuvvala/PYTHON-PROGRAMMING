@@ -1,0 +1,11 @@
+#SWAPPING OF NUMBERS WITOUT USING TEMPORARY VARIABLE
+print("ENTER THE VALUES OF A AND B")
+a=int(input()) 
+b=int(input()) 
+print("BEFORE SWAPPING VALUE OF A:",a)
+print("BEFORE SWAPPING VALUE OF b:",b)
+a=a+b
+b=a-b
+a=a-b
+print("AFTER SWAPPING VALUE OF A:",a)
+print("AFTER SWAPPING VALUE OF B:",b)
