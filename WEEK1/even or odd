@@ -1,6 +1,8 @@
 #TO CHECK GIVEN IS even OR odd
 print("ENTER A NUMBER")
 p=int(input())
+if p==1:
+	print("IT IS NEITHER EVEN NOR ODD")
 if p%2==0 :
 	print("IT IS A EVEN NUMBER")
 else:
