@@ -1,0 +1,60 @@
+#operators in python
+#arthemetical operator
+print("enter the values of a and b")
+a=int(input())
+b=int(input())
+print("THE SUM:",a+b)
+print("THE Sub:",a-b)
+print("THE mul:",a*b)
+print("THE div:",a/b)
+print("THE floor div:",a//b)
+print("THE EXPONENT:",a**b)
+#relational operators
+print("RELATIONAL OPERATOR")
+print(a>b)
+print(a<b)
+print(a==b)
+print(a>=b)
+print(a<=b)
+print("LOGICAL OPERATOR")
+#logical operator
+print(a>b and a>=b)
+print(a>b or a<b)
+print(not(a<=b))
+#bitwise operator
+print("BITWISE OPERATORS ")
+print(a&b)
+print(a|b)
+print(a^b)
+print(~a)
+print(a<<1)
+print(b>>1)
+#MEMBERSHIP OPERATOR
+print("MEMBERSHIP OPERATOR")
+x=[1,2,3,4,5,6,7,8]
+print("ENTER A VALUE")
+y=int(input())
+print(y in x )
+print(y not in x)
+#IDENTITY OPERATOR (IS,IS NOT)
+print("IDENTITY OPERATOR")
+h=11
+e=12
+s=h
+print(h is s)
+print(h is y)
+print(h is not y)
+#ASSINGMENT OPERATORS
+print("ASSINGMENT OPERATORS")
+a+=3
+print("THE VALUE OF A AFTER INCREMENT",a)
+a-=3
+print("THE VALUE OF A AFTER DECREMENT",a)
+a*=3
+print("THE VALUE OF A AFTER MUL",a)
+a/=3
+print("THE VALUE OF A AFTER DIV",a)
+a%=3
+print("THE VALUE OF A AFTER MODULES",a)
+a//=3
+print("THE VALUE OF A AFTER FLOOR DIV",a)
