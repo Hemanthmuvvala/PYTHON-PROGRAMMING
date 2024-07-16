@@ -1,0 +1,7 @@
+#TO CALCULATE THE AREA AND CIRCUMFERENCE OF A CIRCLE
+print("enter the radius of the circle:")
+r=float(input())
+c=2*3.14*r
+a=3.14*r*r
+print("the circuference of the circle:",c)
+print("the area of the circle:",a)
