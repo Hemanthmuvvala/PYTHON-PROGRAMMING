@@ -1,0 +1,7 @@
+#TO FIND THE DISTANCE
+print("ENTER THE VALUE OF VELOCITY")
+v=float(input())
+print("ENTER THE VALUE OF TIME IN MINUTES")
+t=int(input())
+d=v/t
+print("THE DISTACE IS",d,"KMS")
