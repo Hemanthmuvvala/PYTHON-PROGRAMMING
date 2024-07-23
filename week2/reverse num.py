@@ -5,4 +5,4 @@ while n>0:
 	rem=n%10
 	sum=sum*10+rem
 	n=n//10
-print("the sumof the digits= ",sum)
+print("the number after reversing= ",sum)
