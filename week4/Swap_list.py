@@ -9,3 +9,6 @@ t=l[0]
 l[0]=l[n-1]
 l[n-1]=t
 print(l)
+if len(l)>0:
+	l[0],l[-1]=l[-1],l[0]
+print(l)
