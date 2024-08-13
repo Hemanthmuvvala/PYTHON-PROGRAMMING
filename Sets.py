@@ -1,0 +1,25 @@
+#sets
+#union,intersection operations in sets
+a={10,20,30,40,50}
+b={50,60,70,80,90}
+c={'h','e','m','u'}
+print(a|b)
+print(a&b)
+print(a-b)
+print(a^b)
+print(a.add('Hemanth'))
+b.clear()
+print(b)
+a.discard(40)
+print(a)
+a.add(70)
+a.remove(10)
+print(a)
+c.pop()
+print(c)
+print(a.difference(b))
+print(a.symmetric_difference(b))
+print(a.intersection(b))
+print(a.union(b))
+s3=c.copy()
+print(s3)
